@@ -1,0 +1,124 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(108, 207, 124, 0.25);
+}
+
+.nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: seagreen;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 25px;
+    font-family: "Press Start 2P";
+    color: white;
+}
+
+.navdiv li {
+    list-style: none;
+    display: inline;
+}
+
+.navdiv li a {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navdiv li a:hover {
+    color: violet;
+}
+
+#landing {
+    background-color: #f0f0f0;
+    background-image: url('stock_office_image.jpeg');
+    padding: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#landing .landcontent {
+    text-align: center;
+    padding: 30px;
+    color: black;
+    background-color: rgba(28, 127, 144, 0.5);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    background-color: orange;
+}
+
+#serv, #miss, #cont {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+#serv {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 50px, 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#serv ul li {
+    font-size: 18px;
+}
+
+#serv table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#serv table img {
+    width: 450px;
+    height: 300px;
+    border: 3.5px solid ;
+}
+
+#serv p, #miss p {
+    text-indent: 25px
+}
+
+#cont {
+    background-color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
